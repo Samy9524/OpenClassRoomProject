@@ -1,0 +1,47 @@
+.introduction
+{
+    color: blue;
+}
+.salutations
+{
+    color: blue;
+}
+.signature
+{
+	text-align: right;
+}	
+
+h1
+{
+    font-size: 40px; /* Titres de 40 pixels */
+    text-decoration: blink;
+    font-weight: bold;
+    text-align: left;
+    color: marron;
+}
+em
+{
+    font-style: normal;
+    font-weight: bold;
+}
+h2
+{
+    font-style: normal;
+    font-weight: bold
+}
+.imageflottante
+{
+    float: left;
+}
+body
+{
+    background-color: black;
+    color: white;
+}
+
+}
+mark
+{
+	background-color: purple;
+	color: black;
+}

@@ -1,0 +1,44 @@
+/*strong
+{
+   background-color: red; /* Fond rouge */
+   /*color: yellow; /* Texte de couleur jaune */
+
+   /*position: relative;
+   left: 55px;
+   top: 10px;
+}*/
+
+
+element
+{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+nav
+{
+	/*float: left;*/
+	position:fixed;
+	right: 0px;
+	bottom: 0px;
+	/*z-index: 1;*/
+	display: block;
+	width: 150px;
+	border: 1px solid black;
+	vertical-align: top;
+}
+
+section
+{
+	position: absolute;
+	right: 70px;
+	bottom: 70px;
+	/*z-index: 2;*/
+	display: inline-block;
+	/*margin-left: 10px;*/
+	border: 1px solid blue;
+	vertical-align: top;
+}
+ul{
+	display:none;
+}

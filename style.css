@@ -1,3 +1,7 @@
+element
+{
+    position: absolute;
+}
 .introduction
 {
     color: blue;
@@ -13,7 +17,7 @@
 
 body
 {
-    background: url("SE3.jpg") fixed no-repeat top right;
+    background: url("SE3-unsplash.jpg") fixed no-repeat top right;
     /*background-image: url("SE3.jpg");
     background-attachment: fixed; /* Le fond restera fixe */
     /*background-repeat: no-repeat;
@@ -21,14 +25,16 @@ body
 }	
 p
 {
+    background-attachment: fixed;
+    /*column-width: 120px;*/
     text-decoration: blink;
     font-size: 16px; /* Paragraphes de 14 pixels */
     font-family: Times, "Arial Black", Arial, Verdana, sans-serif;
     text-align: left;
     background-color: white;
     color: #000000;
-    text-shadow: 2px 2px 6px black;
-    opacity: 0.8;
+    /*text-shadow: 2px 2px 6px black;*/
+    /*opacity: 0.8;*/
     block-size: fit-content;
     /*width: 60px;
     min-width: 500px;*/
@@ -42,16 +48,20 @@ p
 }
 h1
 {
+    display: flex;
+    column-width: 180px;
     font-size: 40px; /* Titres de 40 pixels */
-    text-decoration: blink;
+    text-decoration: underline;
     font-weight: normal;
     text-align: left;
     color: black;
-    width: 50%;
-    border: 3px black double;
+    text-transform:capitalize;
+
+    width: 80%;
+    /*border: 3px black double;
     border-radius: 20px / 10px;
     box-shadow: 6px 6px 6px black;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px black;*/
 }
 em
 {
@@ -72,4 +82,34 @@ mark
 {
 	background-color: red;
 	color: black;
+}
+ul{
+    list-style-type: none; 
+}
+.menu{
+    /*position: sticky;
+    top: 0;*/
+    background-color: #d6e9d6;
+    padding:10px 0px 10px 0px;
+    color:black;
+    margin-left: 0;
+    border-style: dotted ;
+    /*overflow: hidden;*/
+}
+.menu-log {
+    right: auto;
+    float: right;
+}
+footer {
+    width: 100%;
+    bottom: 0px;
+    background-color:white;
+    color: #fff;
+    /*position: absolute;
+    padding-top:20px;
+    padding-bottom:50px;*/
+    text-align:left;
+    font-size:20px;
+    font-weight:bold;
+    color: black;
 }

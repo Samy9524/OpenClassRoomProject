@@ -1,0 +1,37 @@
+#conteneur
+{
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+	/*align-items: center;
+	height: 350px;
+	border:2px solid #444;
+	height: 350px;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;*/
+}
+.element
+{
+	width 500px;
+	height 300px;
+	margin: auto;
+}
+.element:nth-child(1)
+{
+	background-color: orange;
+	flex: 2;
+	
+}
+.element:nth-child(2)
+{
+	background-color: blue;
+	
+	flex: 1;
+}
+.element:nth-child(3)
+{
+	background-color: #ad6;
+	align-self: flex-end;
+	flex: 3;
+}
