@@ -1,0 +1,49 @@
+.flex{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis: 500px;
+    /*flex-grow: 1;*/
+}
+.flex1{
+    background: red;
+    
+}
+.flex2{
+    background: green;
+    flex-shrink:2;
+   
+}
+.flex3{
+    background: blue;
+    flex-shrink:3;
+   
+}
+/*.flex4{
+    background: orange;
+    order:2;
+}
+.flex5{
+    background: purple;
+    order:3;
+}
+.flex6{
+    background: black;
+    order:1;
+}
+*/
+.container{
+    display:flex;
+    border: 5px solid black;
+    flex-direction: row;
+}
+    /*flex-direction: row;*/
+    /*align-content: space-between;*/
+    /*justify-content: center;*/
+    /*height:600px;/*
+    /*flex-wrap: wrap;*/
+    /*align-items: flex-start;*/
+    /*flex-wrap: wrap;*/
+/*.flex2, .flex4, .flex6{
+    align-self: flex-end;*/
