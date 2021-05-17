@@ -20,6 +20,10 @@
     flex-shrink:3;
    
 }
+.sidebar{
+    width:250px;
+    background: #FFF;
+}
 /*.flex4{
     background: orange;
     order:2;
