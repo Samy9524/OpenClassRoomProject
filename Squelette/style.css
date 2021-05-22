@@ -1,0 +1,75 @@
+*{
+    padding:10px;
+    margin:10px;
+    border:solid;
+}
+.flex{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis: 500px;
+    /*flex-grow: 1;*/
+}
+.boxred1{
+    background: red;
+    /*order:4;*/
+    
+}
+.boxgreen2{
+    background: green;
+    /*flex-shrink:2;*/
+   
+}
+.boxblue3{
+    background: blue;
+    /*order:4;*/
+    /*flex-shrink:3;*/
+   
+}
+.boxblack4{
+    background:black;
+}
+.boxyellow5{
+    background:yellow;
+}
+.boxpurple6{
+    background:purple;
+    }
+.boxfuchsia7{
+    background: fuchsia;
+}
+.boxblueviolet8{
+    background: blueviolet;
+}
+.boxsaddlebrown9{
+    background: saddlebrown;
+}
+/*.flex4{
+    background: orange;
+    order:2;
+}
+.flex5{
+    background: purple;
+    order:3;
+}
+.flex6{
+    background: black;
+    order:1;
+}
+*/
+.container{
+    display:flex;
+    border: 5px solid black;
+    flex-direction: row;
+}
+
+    /*flex-direction: row;*/
+    /*align-content: space-between;*/
+    /*justify-content: center;*/
+    /*height:600px;/*
+    /*flex-wrap: wrap;*/
+    /*align-items: flex-start;*/
+    /*flex-wrap: wrap;*/
+/*.flex2, .flex4, .flex6{
+    align-self: flex-end;*/
