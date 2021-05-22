@@ -1,0 +1,100 @@
+html, body {
+    font-size: 16px;
+}
+
+h2{
+    color:red;
+}
+body {
+    margin: 0;
+    line-height: 1.4;
+    letter-spacing: 0.2;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.header {
+    position: relative;
+    top:0;
+    left: 0;
+    right: 0;
+    background: grey;
+    padding: 20px;
+    height: auto;
+    color: #FFFFFF;
+    height: 30px;
+    z-index: 2;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.header-nav {
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+    background-color: lightcoral;
+    left: 0;
+    top: 5;
+    right: 0;
+    /*z-index: 3;*/
+}
+
+.header-nav a {
+    padding: 0 10px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.header-title {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    margin-top: 0;
+    font-style: italic;
+    text-transform: capitalize;
+    /*z-index: 4;*/
+}
+
+.main{
+    background: lightgrey;
+    padding: 70px 20px 20px;
+    /*padding: 20px;*/
+    font-size: 16px;
+    /*z-index: 1;*/
+}
+
+.main p {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+.footer {
+    background: grey;
+    padding: 10px 20px;
+}
+.main {
+    font-size: 20px;
+}
+.button {
+    color: #FFF;
+    background: #5834cf;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.2em 0.5em;
+}
+input[type="text"],
+input[type="email"]
+{
+	width:200px;
+}
+h2{
+    color:blue;
+}
+h2:hover{
+	color:green;}
