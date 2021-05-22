@@ -1,0 +1,110 @@
+*{
+    padding:10px;
+    margin:10px;
+    border:solid;
+}
+.box{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis: 500px;
+    /*flex-grow: 1;*/
+}
+.bgred{
+    background: red;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis: 500px;
+    /*order:4;*/
+    
+}
+.bggreen{
+    background: green;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis: 500px;
+    /*flex-shrink:2;*/
+   
+}
+.bgblue{
+    background: blue;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis: 500px;
+    /*order:4;*/
+    /*flex-shrink:3;*/
+   
+}
+.bgblack{
+    background:black;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis: 500px;
+}
+.bgyellow{
+    background:yellow;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis: 500px;
+}
+.bgpurple{
+    background:purple;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis: 500px;
+    }
+.flex7{
+    background: fuchsia;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis: 500px;
+}
+.flex8{
+    background: blueviolet;
+}
+.flex9{
+    background: saddlebrown;
+}
+/*.flex4{
+    background: orange;
+    order:2;
+}
+.flex5{
+    background: purple;
+    order:3;
+}
+.flex6{
+    background: black;
+    order:1;
+}
+*/
+.container{
+    display:flex;
+    border: 5px solid black;
+    flex-direction: row;
+}
+
+    /*flex-direction: row;*/
+    /*align-content: space-between;*/
+    /*justify-content: center;*/
+    /*height:600px;/*
+    /*flex-wrap: wrap;*/
+    /*align-items: flex-start;*/
+    /*flex-wrap: wrap;*/
+/*.flex2, .flex4, .flex6{
+    align-self: flex-end;*/

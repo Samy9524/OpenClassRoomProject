@@ -1,0 +1,38 @@
+ .link-external
+ {
+    color:red;
+ }
+ 
+ h2 ~ p{
+    color:blue;
+}
+.title-big{
+    color: red;
+}
+.box
+{
+    position:sticky;
+    top:0px;
+    left:0px;
+}
+.header-nav {
+    margin: 20px 0;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+.header
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background: grey;
+    padding: 20px;
+    height: auto;
+    color: #FFFFFF;
+    height: 30px;
+    z-index: 2;
+}

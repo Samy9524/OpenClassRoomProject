@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    display: flex;
+    /*height:100px;*/
+    background-color: brown;
+    
+    flex-direction: row;
+    /*align-items: center;*/
+    /*height:600px;*/
+    /*flex-wrap:wrap;*/
+    /*align-items:flex-start;*/
+    /*align-content: space-around;*/
+    /*align-content: flex-start;*/
+ 
+    /*flex-direction: column;*/
+    /*justify-content: space-around;*/
+    /*justify-content: flex-end;*/
+    /*justify-content:center;*/
+    /*justify-content: space-between;*/
+    /*justify-content:space-evenly;*/
+
+    /*padding:17px;*/
+
+    /*flex-direction: column-reverse;*/
+    
+    /*flex-wrap:wrap;*/
+    /*flex-wrap: wrap-reverse;*/
+    
+    /*flex-flow: column-reverse wrap-reverse;*/
+    /*flex-flow: row nowrap;*/
+}
+.item{
+    background-color:coral;
+    padding:20px;
+
+    order:0;
+    /*flex-grow: 1;*/
+    /*flex-shrink:1;
+    flex-basis:auto;
+    flex:0 1 auto;
+    align-self:auto;*/
+    /*height:300px;*/
+    /*margin:7px;*/
+}
+.item1{
+    background: blue;
+    flex-grow: 0;
+    /*width:200px;*/
+    /*order:1;*/
+    /*display: flex;*/
+}
+.item2{
+    background:yellow;
+    flex-grow: 4;
+    /*order:-2;*/
+    /*height:100px;*/
+}.item3{
+    background:pink;
+    flex-grow:1;
+    /*order: -5;*/
+    /*height:50px;*/
+}.item4{
+    background:purple;
+}

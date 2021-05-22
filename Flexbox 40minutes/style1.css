@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    margin:0;
+    padding:0;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header, main{
+    display:flex;
+}
+header{
+    justify-content:space-between;
+    align-items: center;
+}
+main{
+    flex-basis:800px;
+}
+article{
+    flex-basis:60%;
+}
+nav{
+    background: gray;
+    flex-basis:20%;
+    order:-1;
+}
+aside{
+    flex-basis:20%;
+    background: teal;
+}
+header, footer{
+    background: lime;
+    flex-basis: 100px;
+}
+@media all and (max-width:640px){
+    main{
+      flex-direction:column;  
+    }
+}
