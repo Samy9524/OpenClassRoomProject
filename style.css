@@ -25,6 +25,7 @@ body
 }	
 p
 {
+    color: blue;
     background-attachment: fixed;
     /*column-width: 120px;*/
     text-decoration: blink;
@@ -112,4 +113,12 @@ footer {
     font-size:20px;
     font-weight:bold;
     color: black;
+}
+@media screen and (max-width:1024px)
+{
+    p{
+        color:red;
+        background-color: black;
+        font-size:1.2em;
+    }
 }
