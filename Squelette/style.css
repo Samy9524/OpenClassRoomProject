@@ -11,65 +11,55 @@
     flex-basis: 500px;
     /*flex-grow: 1;*/
 }
-.boxred1{
+.boxred{
     background: red;
     /*order:4;*/
     
 }
-.boxgreen2{
+.boxgreen{
     background: green;
     /*flex-shrink:2;*/
    
 }
-.boxblue3{
+.boxblue{
     background: blue;
-    /*order:4;*/
-    /*flex-shrink:3;*/
-   
+ 
 }
-.boxblack4{
+.boxblack{
     background:black;
 }
-.boxyellow5{
+.boxyellow{
     background:yellow;
 }
-.boxpurple6{
+.boxpurple{
     background:purple;
     }
-.boxfuchsia7{
+.boxfuchsia{
     background: fuchsia;
 }
-.boxblueviolet8{
+.boxblueviolet{
     background: blueviolet;
+ 
 }
-.boxsaddlebrown9{
+.boxsaddlebrown{
     background: saddlebrown;
+
 }
-/*.flex4{
-    background: orange;
-    order:2;
-}
-.flex5{
-    background: purple;
-    order:3;
-}
-.flex6{
-    background: black;
-    order:1;
-}
-*/
+
 .container{
     display:flex;
     border: 5px solid black;
     flex-direction: row;
 }
-
-    /*flex-direction: row;*/
-    /*align-content: space-between;*/
-    /*justify-content: center;*/
-    /*height:600px;/*
-    /*flex-wrap: wrap;*/
-    /*align-items: flex-start;*/
-    /*flex-wrap: wrap;*/
-/*.flex2, .flex4, .flex6{
-    align-self: flex-end;*/
+.container2{
+    display:flex;
+    border: 5px solid black;
+    flex-direction: row;
+    width:400px;
+}
+@media screen and (max-width: 1024px)
+{
+    .container{
+        flex-direction:column;
+    }
+}
