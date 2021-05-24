@@ -17,8 +17,17 @@
     font-size: 40px;
     text-align: center;
     padding:15px;
-    flex-basis:500px
+    flex-basis:200px
 
+}
+.boxblue{
+    background: blue;
+    background:black;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis:300px
 }
 .container{
     display:flex;
@@ -39,7 +48,7 @@
     display:flex;
     border:5px solid black;
     flex-direction:row;
-    flex-basis:600px;
+    flex-basis:300px;
 }
 @media screen and (max-width: 1024px)
 {
