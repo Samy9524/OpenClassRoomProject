@@ -3,43 +3,91 @@
     margin:10px;
     border:solid;
 }
-.flex{
+/*.mainbox{
     color:white;
     font-size: 40px;
     text-align: center;
     padding:15px;
     flex-basis: 500px;
  }
+ */
 .boxred{
     background: red;
- 
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis: 500px;
+
 }
 .boxgreen{
     background: green;
-  
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis: 500px;
+
 }
 .boxblue{
     background: blue;
- 
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis:500px;
+
 }
 .boxblack{
     background:black;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis:500px
+
 }
 .boxyellow{
     background:yellow;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis:500px;
+
 }
 .boxpurple{
     background:purple;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+    flex-basis:500px;
+
     }
 .boxfuchsia{
     background: fuchsia;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+   
+
 }
 .boxblueviolet{
     background: blueviolet;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+
  
 }
 .boxsaddlebrown{
     background: saddlebrown;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
 
 }
 
@@ -47,14 +95,15 @@
     display:flex;
     border: 5px solid black;
     flex-direction: row;
+    flex-basis:600px;
 }
 .container2{
     display:flex;
     border: 5px solid black;
     flex-direction: row;
-    width:400px;
-    
-    
+    flex-grow: 1;
+    flex-basis:200px;
+      
 }
 @media screen and (max-width: 1024px)
 {
