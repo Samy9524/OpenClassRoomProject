@@ -8,7 +8,7 @@
     font-size: 40px;
     text-align: center;
     padding:15px;
-    flex-basis: 500px;
+    flex-basis: 600px;
 
 }
 .boxblack{
@@ -24,7 +24,7 @@
     display:flex;
     border: 5px solid black;
     flex-direction: row;
-    flex-basis:600px;
+    flex-basis:900px;
 }
 .container2{
     display:flex;
@@ -33,6 +33,12 @@
     flex-grow: 1;
     flex-basis:300px;
       
+}
+.container3{
+    display:flex;
+    border:5px solid black;
+    flex-direction:row;
+    flex-basis:300px;
 }
 @media screen and (max-width: 1024px)
 {
