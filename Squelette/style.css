@@ -9,6 +9,7 @@
     text-align: center;
     padding:15px;
     flex-basis: 500px;
+
     /*flex-grow: 1;*/
 }
 .boxred{
@@ -61,5 +62,5 @@
 {
     .container{
         flex-direction:column;
-    }
+     }
 }
