@@ -22,7 +22,6 @@
 }
 .boxblue{
     background: blue;
-    background:black;
     color:white;
     font-size: 40px;
     text-align: center;
@@ -48,7 +47,6 @@
     display:flex;
     border:5px solid black;
     flex-direction:row;
-    flex-basis:300px;
 }
 @media screen and (max-width: 1024px)
 {
