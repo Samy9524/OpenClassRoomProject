@@ -28,11 +28,17 @@
     padding:15px;
     flex-basis:300px
 }
+.boxyellow{
+    background: yellow;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding:15px;
+}
 .container{
     display:flex;
     border: 5px solid black;
     flex-direction: row;
-    flex-basis:900px;
 }
 .container2{
     display:flex;
@@ -47,6 +53,7 @@
     display:flex;
     border:5px solid black;
     flex-direction:row;
+    flex-basis:300px;
 }
 @media screen and (max-width: 1024px)
 {
