@@ -9,6 +9,8 @@
     text-align: center;
     padding:15px;
     flex-basis: 600px;
+    flex-grow:0;
+    flex-shrink:0;
 
 }
 .boxblack{
@@ -54,7 +56,6 @@
     display:flex;
     border:5px solid black;
     flex-direction:row;
-    flex-basis:300px;
     flex-grow:0;
     flex-shrink: 0;
 }
