@@ -34,11 +34,12 @@
     flex-basis:300px;
       
 }
-.container3{
+.container3
+{
     display:flex;
     border:5px solid black;
     flex-direction:row;
-    flex-basis:300px;
+    flex-basis:600px;
 }
 @media screen and (max-width: 1024px)
 {
