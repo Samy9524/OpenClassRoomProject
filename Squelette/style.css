@@ -102,7 +102,7 @@
     border: 5px solid black;
     flex-direction: row;
     flex-grow: 1;
-    flex-basis:200px;
+    flex-basis:300px;
       
 }
 @media screen and (max-width: 1024px)
