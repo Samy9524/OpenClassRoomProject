@@ -5,12 +5,12 @@
 }*/
 .boxred{
     background: red;
-    font-size: 40px;
+    /*font-size: 40px;*/
     text-align: center;
     padding:15px;
-    flex-basis: 600px;
-    flex-grow:0;
-    flex-shrink:0;
+    /*flex-basis: 600px;*/
+    /*flex-grow:0;
+    flex-shrink:0;*/
 
 }
 .boxblack{
@@ -19,7 +19,8 @@
     font-size: 40px;
     text-align: center;
     padding:15px;
-    flex-basis:250px
+    flex-basis:250px;
+    align-items:flex-start;
 
 }
 .boxblue{
@@ -57,8 +58,9 @@
     display:flex;
     border:5px solid black;
     flex-direction:row;
-    flex-grow:0;
-    flex-shrink: 0;
+    flex-wrap: nowrap;
+    /*flex-grow:0;
+    flex-shrink: 0;*/
 }
 /*@media screen and (max-width: 1024px)
 {
@@ -73,11 +75,11 @@ main {
 	display: flex;
 	margin-bottom: 3em;
 }
-.insideLabel{
+/*.insideLabel{
     width: 320px;
     height: 195px;
     margin: 0px 15px 40px 15px;
-}
+}*/
 body {
 	margin:0;
 	font-family: "Raleway", sans-serif;
