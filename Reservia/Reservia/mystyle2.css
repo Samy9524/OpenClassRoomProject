@@ -207,7 +207,8 @@ article {
 	box-shadow: 0 0 16px #0000002e;
 }
 .photo {
-	width: 100%;
+	/*width: 100%;*/
+	width:100px;
 	height: 60%;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
@@ -215,6 +216,7 @@ article {
 .title {
 	font-weight: bold;
 	font-size: 1em;
+	align-items: center;
 }
 aside {
 	border-radius: 15px;

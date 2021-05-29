@@ -14,17 +14,19 @@
 
 }
 .boxblack{
+    display:flex;
     background:black;
     color:white;
     font-size: 40px;
-    text-align: flex-start;
+    text-align: center;
     padding:10px;
     flex-basis:300px;
+
     /*align-items:flex-start;
     align-content: flex-start;*/
     /*flex-grow:0;
-    flex-shrink: 0;
-    display:block;*/
+    flex-shrink: 0;/*
+    /*display:block;*/
 
 }
 .boxblue{
@@ -33,7 +35,8 @@
     font-size: 40px;
     text-align: center;
     padding:15px;
-    flex-basis:300px
+    flex-basis:250px;
+    flex-direction:row;
 }
 .boxyellow{
     background: yellow;
@@ -41,12 +44,13 @@
     font-size: 40px;
     text-align: center;
     padding:15px;
+    flex-wrap: nowrap;
 }
 .container{
     display:flex;
     border: 5px solid black;
     flex-direction: row;
-    /*flex-basis: 700px;*/
+    flex-basis: 700px;
 
 }
 .container2{
@@ -63,7 +67,8 @@
     display:flex;
     border:5px solid black;
     flex-direction:row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: flex-start;
    /*flex-grow:0;
     flex-shrink: 0;*/
 }
@@ -80,11 +85,11 @@
 	display: flex;
 	margin-bottom: 3em;
 }*/
-/*.insideLabel{
+.insideLabel{
     width: 320px;
     height: 195px;
     margin: 0px 15px 40px 15px;
-}*/
+}
 
 
 .articleLabel {
@@ -121,7 +126,7 @@ a{
 	box-shadow: 0 0 16px #0000002e;
 }*/
 .photo {
-	width: 220px;
+	width: 160px;
 	height: 60%;
 	border-radius: 15px 15px 15px 15px;
 	/*object-fit: cover;*/
@@ -129,7 +134,7 @@ a{
 .title {
     display:flex;
 	font-weight: bold;
-	font-size: 0.3em;
+	font-size: 1em;
     justify-content: flex-start;
 }
 .stars {
@@ -137,13 +142,13 @@ a{
 	align-items: center;
     justify-content: flex-start;
 	color: #0065fc;
-    font-size:0.3em;
+    font-size:1em;
 }
 .emptyStars {
 	color: #f2f2f2;
 }
 .price{
     display:flex;
-    font-size: 0.3em;
+    font-size: 1em;
     justify-content: flex-start;
 }
