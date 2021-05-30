@@ -208,7 +208,7 @@ article {
 }
 .photo {
 	/*width: 100%;*/
-	width:100px;
+	width:190px;
 	height: 60%;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
@@ -398,6 +398,7 @@ ul {
 	}
 	.hebergement{
 		padding: 0em 1.5em 0em 1.5em;
+		flex-wrap: wrap;
 	}
 	.search {
 		padding: 1.5em 1.5em 0em 1.5em;

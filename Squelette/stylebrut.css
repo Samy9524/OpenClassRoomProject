@@ -1,8 +1,8 @@
-*{
+/**{
     padding:10px;
     margin:10px;
     border:solid;
-}
+}*/
 .boxred{
     background: red;
     font-size: 40px;
