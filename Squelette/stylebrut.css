@@ -27,7 +27,7 @@
     color:white;
     font-size: 40px;
     text-align: center;
-    padding:15px;
+    padding:5px;
     flex-basis:300px
 }
 .boxyellow{
@@ -70,6 +70,19 @@
         font-size:1.2em;
      }
 }*/
+h2 {
+    padding: 0em 0em 0em 1.5em;
+}
+h2,
+.graph {
+	font-weight: bold;
+	font-size: 1.6em;
+}
+.asideTitle{
+    margin:0vh 0vw 0vw 0vw;
+    padding: 0em 0.5em 0em 0.5em;
+    width:86vw;
+}	
 .photo {
 	/*width: 100%;*/
 	width:150px;
@@ -106,14 +119,14 @@ a{
     /*margin: 0em 0em 0em 0em;*/
     display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	/*justify-content: flex-start;*/
 	/*box-shadow: 0 0 16px #0000002e;*/
 }
 .asideinsideLabel {
 	/*width: 14.2vw;*/
     width:320px;
 	min-width:300px;
-    height: 130px;
+    height: 140px;
     background-color: #fff;
 	border: 5px solid #fff;
 	border-radius: 15px;
