@@ -18,7 +18,7 @@
     color:white;
     font-size: 40px;
     text-align: center;
-    padding:15px;
+    padding:5px;
     flex-basis:200px
 
 }
@@ -35,7 +35,7 @@
     color:white;
     font-size: 40px;
     text-align: center;
-    padding:15px;
+    padding:5px;
     flex-basis:200px;
     flex-grow: 0;
     flex-shrink: 0;
@@ -80,7 +80,7 @@
 .photo2 {
 	/*width: 100%;*/
 	width:298px;
-	height: 100%;
+	height: 200px;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
 }
@@ -103,7 +103,8 @@ a{
 	border: 5px solid #fff;
 	border-radius: 15px;
 	/*margin: 0em 1em 3em 0em;*/
-	display: flex;
+    /*margin: 0em 0em 0em 0em;*/
+    display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	box-shadow: 0 0 16px #0000002e;
@@ -112,7 +113,9 @@ a{
 	/*width: 14.2vw;*/
     width:300px;
 	min-width:200px;
-	height: 170px;
+    height: 240px;
+   
+
 	background-color: #fff;
 	border: 5px solid #fff;
 	border-radius: 15px;
