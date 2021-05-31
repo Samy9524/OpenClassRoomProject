@@ -105,7 +105,7 @@ a{
 	/*margin: 0em 1em 3em 0em;*/
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	box-shadow: 0 0 16px #0000002e;
 }
 .asideinsideLabel {
@@ -119,10 +119,11 @@ a{
 	/*margin: 0em 1em 3em 0em;*/
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	box-shadow: 0 0 16px #0000002e;
 }
 .title {
+    display:flex;
 	font-weight: bold;
 	font-size: 0.3em;
 	/*align-items: flex-start;*/
@@ -130,6 +131,7 @@ a{
 
 }
 .price{
+    display:flex;
     font-weight:bold;
     font-size:0.3em;
     align-items:center;
@@ -140,7 +142,7 @@ a{
 	align-items: center;
 	color: #0065fc;
     font-size:0.3em;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .emptyStars {
 	color: #f2f2f2;
