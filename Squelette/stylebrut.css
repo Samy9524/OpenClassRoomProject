@@ -75,14 +75,14 @@
 	width:150px;
 	height: 132px;
 	border-radius: 15px 15px 0px 0px;
-	object-fit: cover;
+	object-fit: fill;
 }
 .photo2 {
-	/*width: 100%;*/
-	width:298px;
-	height: 200px;
+	width: 320px;
+	/*width:398px;*/
+	height: 93px;
 	border-radius: 15px 15px 0px 0px;
-	object-fit: cover;
+	object-fit: fill;
 }
 body {
 	margin:0;
@@ -107,13 +107,13 @@ a{
     display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	box-shadow: 0 0 16px #0000002e;
+	/*box-shadow: 0 0 16px #0000002e;*/
 }
 .asideinsideLabel {
 	/*width: 14.2vw;*/
-    width:300px;
-	min-width:200px;
-    height: 240px;
+    width:320px;
+	min-width:300px;
+    height: 130px;
     background-color: #fff;
 	border: 5px solid #fff;
 	border-radius: 15px;
@@ -121,7 +121,7 @@ a{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	box-shadow: 0 0 16px #0000002e;
+	/*box-shadow: 0 0 36px #0000002e;*/
 }
 .title {
     display:flex;
