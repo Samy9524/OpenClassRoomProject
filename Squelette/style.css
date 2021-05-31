@@ -106,7 +106,7 @@
     height: 100%;
     background-color:#fff;
     justify-content: flex-start;
-    flex-basis:60%;
+
 }
 body {
 	margin:0;
@@ -132,7 +132,6 @@ a{
 	justify-content: space-between;
 	box-shadow: 0 0 16px #0000002e;
     align-content: flex-start;
-    flex-basis: 40%;
   
 }
 /*.insideLabel {
