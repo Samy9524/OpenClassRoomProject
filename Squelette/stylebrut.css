@@ -70,6 +70,28 @@
         font-size:1.2em;
      }
 }*/
+article {
+	width: 70%;
+	border-radius: 1.5em;
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 2vw 2vw 3vw 3vw;
+}
+
+.articleLabel {
+    width:670px;
+    height:180px;
+	/*height: 100%;*/
+	/*display: flex;*/
+	flex-wrap: nowrap;
+	/*justify-content: space-between;*/
+    justify-content: flex-start;
+	/*align-content: space-between;*/
+    
+	background-color: #f2f2f2;
+}
 h2 {
     padding: 0em 0em 0em 1.5em;
 }
@@ -88,7 +110,7 @@ h2,
 	width:150px;
 	height: 132px;
 	border-radius: 15px 15px 0px 0px;
-	object-fit: fill;
+	/*object-fit: fill;/*
 }
 .photo2 {
 	width: 320px;
