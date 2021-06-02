@@ -17,7 +17,7 @@ header {
 	justify-content: space-between;
 }
 nav {
-	display: block;
+	/*display: block;*/
 	display: flex;
 	width: 35%;
 	font-size: 1.1em;
@@ -207,8 +207,7 @@ article {
 	box-shadow: 0 0 16px #0000002e;
 }
 .photo {
-	/*width: 100%;*/
-	width:190px;
+	width: 100%;
 	height: 60%;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
@@ -216,7 +215,6 @@ article {
 .title {
 	font-weight: bold;
 	font-size: 1em;
-	align-items: center;
 }
 aside {
 	border-radius: 15px;
@@ -269,15 +267,15 @@ aside {
 }
 .section2 {
 	padding: 0em 3em 0em 3em;
-	display: block;
-	flex-direction: row;
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 4em;
 }
 .activitiesLabel {
 	height: 378px;
 	border-radius: 15px;
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	flex-direction: column;
 	align-content: space-between;
 	justify-content: space-between;
@@ -398,7 +396,6 @@ ul {
 	}
 	.hebergement{
 		padding: 0em 1.5em 0em 1.5em;
-		flex-wrap: wrap;
 	}
 	.search {
 		padding: 1.5em 1.5em 0em 1.5em;
