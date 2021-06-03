@@ -48,8 +48,9 @@
 }
 .container{
     display:flex;
-    border: 5px solid black;
-    flex-direction: row;
+    border: 1px solid black;
+    flex-direction: column;
+    align-items:flex-start;
     flex-basis: 700px;
 
 }
@@ -108,6 +109,7 @@ header {
 	border-radius: 15px;
 	background-color: #fff;
 	box-shadow: 0 0 16px #0000002e;
+    justify-content:space-around;
 }
 .section2Photo1 {
 	/*width:100%;*/
@@ -161,11 +163,15 @@ header {
 }
 .section2 {
 	/*padding: 0em 3em 0em 3em;*/
-	display:flex;
+	/*display:flex;*/
 	flex-direction: column;
     flex-wrap: wrap;
-    flex-basis:600px;
-	/*margin-bottom: 2em;*/
+    width:600px;
+    /*flex-basis:600px;*/
+	margin-bottom: 2em;
+    align-items:flex-start;
+
+	/*margin-bottom: 4em;*/
 }
 main{
     width:800px;
@@ -230,6 +236,7 @@ a{
 }
 .hebergements{
     display:flex;
+    flex-wrap: wrap;
     /*width:900px;
     height:300px;*/
     flex-basis: 600px;
