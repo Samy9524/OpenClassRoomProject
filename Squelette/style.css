@@ -3,6 +3,9 @@
     margin:10px;
     border:solid;
 }*/
+*{
+    border-width: 1px solid;
+}
 .boxred{
     background: red;
     /*font-size: 40px;*/
@@ -85,16 +88,18 @@
 	margin-top: 3em;
 	display: flex;
 	margin-bottom: 3em;
-}
+}*/
 /*.insideLabel{
     width: 320px;
     height: 195px;
     margin: 0px 15px 40px 15px;
 }
 */
+
+
 header {
-	padding: 0vw 2vw 0vw 2vw;
-    display:block;
+	padding: 0vw 4vw 0vw 4vw;
+ 
 }
 .top {
 	margin-top: 2em;
@@ -206,7 +211,7 @@ article {
 
 }
 body {
-    display:flex;
+    /*display:flex;*/
     flex-direction: row;
 	margin:0;
 	font-family: "Raleway", sans-serif;
