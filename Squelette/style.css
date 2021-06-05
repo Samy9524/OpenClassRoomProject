@@ -57,6 +57,15 @@
     flex-basis: 700px;
 
 }
+.containerlabel{
+    display:flex;
+    border: 1px solid black;
+    align-items:flex-start;
+    flex-direction:column;
+    flex-basis: 700px;
+	justify-content: space-between;
+
+}
 .container2{
     display:flex;
     border: 5px solid black;
@@ -95,6 +104,15 @@
     margin: 0px 15px 40px 15px;
 }
 */
+.section2Text {
+	height: 55px;
+	padding-left: 2.5vw;
+	display: flex;
+	align-items: center;
+}
+h2 {
+	padding: 0em 0em 0em 0em;
+}
 .search {
 	height: 3em;
 	width: 400px;
@@ -158,8 +176,8 @@ header {
 
 .section2InsideLabel {
 	/*width: 21.3vw;*/
-    width:200px;
-    height:150px;
+    width:400px;
+    height:350px;
 	border-radius: 15px;
 	background-color: #fff;
 	box-shadow: 0 0 16px #0000002e;
@@ -167,12 +185,14 @@ header {
 }
 .section2Photo1 {
 	/*width:100%;*/
-    width:100%;
-	height: 300px;
+	display: flex;
+    width:200px;
+	height: 500px;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: fill;
 }
 .section2Photo2 {
+	display:flex;
 	width:100%;
 	height: 145px;
 	border-radius: 15px 15px 0px 0px;
@@ -213,7 +233,9 @@ header {
 	flex-wrap: wrap;
 	flex-direction: column;
 	align-content: space-between;
-	justify-content: space-between;
+	justify-content: flex-start;
+	flex-grow:0;
+	flex-shrink:0;
 }
 .section2 {
 	/*padding: 0em 3em 0em 3em;*/
