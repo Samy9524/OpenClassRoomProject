@@ -1,0 +1,42 @@
+@media screen and (max-width: 420px) {
+	body {
+		 /* width: 100%;  */
+	}
+	.articleLabel {
+		padding: 0em 0em 0em 0em;
+	}	
+	aside{
+		padding: 0em 0em 0em 0em;
+		
+	}
+	.section2 {
+		padding: 0em 0em 0em 0em;
+	}
+    #activities{
+		padding: 0em 1.5em 0em 1.5em;
+	}
+	.insideLabel {
+		margin:0vh 5vw 5vw 5vw;
+		width: 86vw;
+		height: 195px;
+	}
+	.asideTitle{
+		/* margin:0vh 0vw 0vw 0vw; */
+		padding: 0em 1.5em 0em 1.5em;
+		width:86vw;
+	}	
+	.asideInsideLabel{
+		margin:0vh 0vw 5vw 0vw;
+		width: 86vw;
+		height: 120px;
+	}
+	.section2InsideLabel {
+		margin:0vh 0vw 5vw 0vw;
+		width: 88vw;
+		height: 195px;
+	}	
+	ul{
+		padding: 0em 1.5em 0em 1.5em;		
+	}
+
+}

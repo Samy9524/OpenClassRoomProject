@@ -33,7 +33,7 @@ nav a {
 }
 nav a:hover {
 	color:#0065fc;
-	border-top: 3px solid #0065fc;
+	border-bottom: 3px solid #0065fc;
 }
 .navSubscribe {
 	color: #0065fc;
@@ -296,13 +296,15 @@ h2 {
 	box-shadow: 0 0 16px #0000002e;
 }
 .section2Photo1 {
-	width:100%;
+	/*width:70%;*/
+	width:300px;
 	height: 320px;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
 }
 .section2Photo2 {
-	width:100%;
+	/*width:100%;*/
+	width:300px;
 	height: 145px;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
@@ -348,6 +350,11 @@ ul {
 	list-style-type: none;
 	min-width: 280px;
 }
+
+/*---- media queries ------------------------------------------*/
+
+
+
 
 /* Containers*/
 

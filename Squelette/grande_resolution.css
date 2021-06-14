@@ -1,0 +1,11 @@
+/*-- grands ecrans --*/
+@media screen and (min-width: 1440px) {
+	article{
+		padding: 4vh 4vw 4vh 4vw;
+	}
+	aside{
+		margin-left: 3vw;
+		padding: 2vh 6vw 0vh 6vw; 
+	}
+}
+
