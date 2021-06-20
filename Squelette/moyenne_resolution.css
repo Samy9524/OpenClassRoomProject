@@ -1,12 +1,10 @@
-/*-- tablettes --*/
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 974px) {
 	header{
 		padding: 0em 0em 0em 0em;
 	}
 	#logo {
 		margin-bottom: 1em;
-		padding: 0em 0.5em 0em 0.5em;
+		padding: 0em 1.5em 0em 1.5em;
 	}
 	.top {
 		display: inline;
@@ -18,14 +16,14 @@
 	.navHebergements {
 		width: 50%;
 		color: black;
-		/*border-top: 3px solid transparent;*/
-		/*border-bottom: 3px solid #f2f2f2;*/
+		border-top: 3px solid transparent;
+		border-bottom: 3px solid #f2f2f2;
 		padding-bottom: 1em;
 		display: flex;
 		justify-content: center;
 	}
 	.navActivities {
-		width:50%;
+		width: 50%;
 		color: black;
 		border-bottom: 3px solid #f2f2f2;
 		padding-bottom: 1em;
@@ -33,7 +31,7 @@
 		justify-content: center;
 	}
 	.navSubscribe {
-		/*border-top: 3px solid transparent;*/
+		border-top: 3px solid transparent;
 		height:20px;
 		position:absolute; 
 		top:15px;
@@ -45,12 +43,12 @@
 		border-bottom: 3px solid #0065fc;
 	}
 	.hebergement{
-		padding: 0em 0em 0em 1em;
+		padding: 0em 1.5em 0em 1.5em;
 	}
 	.search {
-		padding: 1.5em 0em 0em 1em;
+		padding: 1.5em 1.5em 0em 1.5em;
 		max-width: 320px;
-		width:70%;
+		width:90%;
 		}
 	.searchText {
 		display: none;
@@ -59,8 +57,7 @@
 		background-color: #0065fc;
 		color: #fff;
 		height: 100%;
-		width:80px;
-		/*width: 4em;*/
+		width: 4em;
 		margin-left: -0.7em;
 		border-radius: 15px;
 		display: flex;
@@ -80,10 +77,10 @@
 		padding: 0em 0em 0em 0em;
 		display: flex;
 		flex-direction: column-reverse;
-		/*border-radius: 0px;
+		border-radius: 0px;
 		margin-left: 0;
 		margin-right: 0;
-		margin-bottom: 1em*/
+		margin-bottom: 1em;
 	}
 	h2 {
 		padding: 0em 0em 0em 1.5em;
@@ -92,7 +89,7 @@
 		padding: 0em 0em 0em 0em;
 		margin-left: 0;
 		margin-right: 0;
-        width : 430px;
+
 		height: 100%;
 		background-color: #fff;
 		justify-content: center;
@@ -107,7 +104,7 @@
 		height: 195px;
 		margin: 0px 20px 40px 20px;
 	}
-    article {
+	article {
 		width: 100%;
 		background-color: #fff;
 		padding: 0em 0em 0em 0em;
@@ -116,11 +113,9 @@
 	aside {
 		width: 100%;
 		padding: 0em 0em 0em 0em;
-
-		/* padding: 0em 1.5em 0em 1.5em; */
-		/*border-radius: 0px;*/
-		/*background-color: #f2f2f2;
-		margin-left: 0;*/
+		border-radius: 0px;
+		background-color: #f2f2f2;
+		margin-left: 0;
 	}
 	.asideLabel{
 		height:100%;
@@ -138,10 +133,8 @@
 	.section2 {
 		padding: 0em 0em 0em 0em;
 	}
-    .activitiesLabel {
-		/* width: 100%; */
+	.activitiesLabel {
 		height: 100%;
-		/* padding: 0px; */
 		padding: 0em 1.5em 0em 1.5em;
 
 		border-radius: 0px;
@@ -153,23 +146,23 @@
 		flex-wrap: wrap;
 		justify-content: center;
 	}
-    .section2InsideLabel {
+	.section2InsideLabel {
 		width: 320px;
 		height: 190px;
 	}
-    .section2Photo1 {
-		width: 100%;
-		height: 140px;
-    }
-    .section2Photo2 {
+	.section2Photo1 {
 		width: 100%;
 		height: 140px;
 	}
-    .section2Photo3 {
+	.section2Photo2 {
 		width: 100%;
 		height: 140px;
 	}
-    .section2Photo4 {
+	.section2Photo3 {
+		width: 100%;
+		height: 140px;
+	}
+	.section2Photo4 {
 		width: 100%;
 		height: 140px;
 	}
@@ -177,7 +170,7 @@
 		width: 100%;
 		height: 140px;
 	}
-    footer {
+	footer {
 		display: block;
 	}
 }

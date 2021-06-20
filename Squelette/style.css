@@ -3,10 +3,12 @@ body {
 	font-family: "Raleway", sans-serif;
 	font-size: 13px;
 	font-weight: normal;
+	/*width: 1340px;*/
 }
 a{
 	color:black;
 	text-decoration: none;
+	margin:auto;
 }
 header {
 	padding: 0vw 2vw 0vw 2vw;
@@ -33,7 +35,7 @@ nav a {
 }
 nav a:hover {
 	color:#0065fc;
-	border-bottom: 3px solid #0065fc;
+	border-top: 3px solid #0065fc;
 }
 .navSubscribe {
 	color: #0065fc;
@@ -45,10 +47,12 @@ nav a:hover {
 h2,
 .graph {
 	font-weight: bold;
-	font-size: 16px;
+	/*font-size: 16px;*/
+	font-size: 1.6em;
 }
 header h1 {
-	font-size: 16px;
+	/*font-size: 16px;*/
+	font-size: 1.6em;
 	display: block;
 	margin-right: 1.5em;
 }
@@ -171,12 +175,14 @@ header h1 {
 }
 main {
 	padding: 0vw 2vw 0vw 2vw;
+	/*padding: 0px 10px 0px 10px;*/
 	margin-top: 3em;
 	display: flex;
 	margin-bottom: 3em;
 }
 article {
-	width: 70%;
+	/*width: 100%;*/
+	width:70%;
 	border-radius: 1.5em;
 	background-color: #f2f2f2;
 	display: flex;
@@ -188,19 +194,19 @@ article {
     height: 100%;
 	display:flex;
    	flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-content: space-between;
     background-color: #f2f2f2;
 }
 .insideLabel {
-   	/*width: 14.2vw;*/
-	width: 200px; 
+   	width: 14.2vw;
+	/*width: 200px; */
 	min-width:150px;
 	height: 165px;
 	background-color: #fff;
 	border: 5px solid #fff;
 	border-radius: 15px;
-	margin: 0em 1em 3em 0em;
+	margin: 0em 1em 1em 0em;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -287,8 +293,8 @@ h2 {
 }
 
 .section2InsideLabel {
-	/*width: 22vw;*/
-	width:300px;
+	width: 21.5vw;
+	/*width:300px;*/
     /*width:200px;
     height:350px;*/
 	border-radius: 15px;
@@ -296,22 +302,19 @@ h2 {
 	box-shadow: 0 0 16px #0000002e;
 }
 .section2Photo1 {
-	/*width:70%;*/
-	width:300px;
+	width:100%;
 	height: 320px;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
 }
 .section2Photo2 {
-	/*width:100%;*/
-	width:300px;
+	width:100%;
 	height: 145px;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
 }
 .section2Photo3 {
 	width:100%;
-	/*width: 200px;*/
 	height: 95px;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
@@ -323,7 +326,6 @@ h2 {
 	object-fit: cover;
 }
 .section2Photo5 {
-	/*width:200px;*/
 	width:100%;
 	height: 125px;
 	border-radius: 15px 15px 0px 0px;
@@ -353,88 +355,6 @@ ul {
 
 /*---- media queries ------------------------------------------*/
 
+/*-- tablettes --*/
 
 
-
-/* Containers*/
-
-
-.boxred{
-    background: red;
-    /*font-size: 40px;*/
-    text-align: center;
-    padding:15px;
-    /*flex-basis: 600px;*/
-    /*flex-grow:0;
-    flex-shrink:0;*/
-
-}
-.boxblack{
-    display:flex;
-    background:black;
-    color:white;
-    font-size: 40px;
-    text-align: center;
-    padding:10px;
-    flex-basis:300px;
-
-    /*align-items:flex-start;
-    align-content: flex-start;*/
-    /*flex-grow:0;
-    flex-shrink: 0;/*
-    /*display:block;*/
-
-}
-.boxblue{
-    background: blue;
-    color:white;
-    font-size: 40px;
-    text-align: center;
-    padding:15px;
-    flex-basis:250px;
-    flex-direction:row;
-}
-.boxyellow{
-    background: yellow;
-    color:white;
-    font-size: 40px;
-    text-align: center;
-    padding:15px;
-    flex-wrap: nowrap;
-}
-#container{
-    display:flex;
-    border: 1px solid black;
-    /*align-items:flex-start;*/
-    flex-direction:row;
-    flex-basis: 700px;
-
-}
-.containerlabel{
-    display:flex;
-    border: 1px solid black;
-    flex-direction:column;
-    /*flex-basis: 300px;*/
-	width:200px;
-	justify-content: flex-start;
-
-}
-.container2{
-    display:flex;
-    border: 5px solid black;
-    flex-direction: column-reverse;
-    flex-grow: 0;
-    flex-shrink:0;
-    flex-basis:300px;
-      
-}
-.container3
-{
-    display:flex;
-    border:5px solid black;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-   /*flex-grow:0;
-    flex-shrink: 0;*/
-}
