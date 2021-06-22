@@ -1,5 +1,5 @@
 /*-- grands ecrans --*/
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
 	article{
 		padding: 4vh 4vw 4vh 4vw;
 	}
