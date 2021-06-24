@@ -3,6 +3,7 @@ body {
 	font-family: "Raleway", sans-serif;
 	font-size: 13px;
 	font-weight: normal;
+	max-width: 1440px;
 }
 a{
 	color:black;
@@ -47,7 +48,7 @@ h2,
 .graph {
 	font-weight: bold;
 	font-size: 1.6em;
-	justify-content: flex-end;
+	padding-left: 10px;
 }
 header h1 {
 	font-size: 1.6em;
@@ -234,7 +235,7 @@ aside {
 	width: 320px;
 	padding: 20px 0px 20px 0px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 }
 .asideInsideLabel {
