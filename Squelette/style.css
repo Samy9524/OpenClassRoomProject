@@ -219,6 +219,10 @@ article {
 .title {
 	font-weight: bold;
 	font-size: 1em;
+	padding: 0vh 0.5vw;
+}
+.price{
+	padding: 0vh 0.5vw;
 }
 aside {
 	border-radius: 15px;
@@ -265,6 +269,7 @@ aside {
 	display: flex;
 	align-items: baseline;
   	color: #0065fc;
+	padding: 0vh 0.5vw;
 }
 .emptyStars {
 	color: #f2f2f2;
