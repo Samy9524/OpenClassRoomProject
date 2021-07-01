@@ -33,12 +33,14 @@ nav a {
 	text-decoration: none;
 	display: flex;
     align-items: flex-end;
-	padding: 1vh 2vw 4vh 2vw;
+	padding: 1vh 1vw 2vh 1vw;
+
 
 }
 nav a:hover {
 	color:#0065fc;
 	border-top: 3px solid #0065fc;
+
 }
 .navSubscribe {
 	color: #0065fc;
