@@ -3,6 +3,7 @@ body {
 	font-family: "Raleway", sans-serif;
 	font-size: 13px;
 	font-weight: normal;
+	/*max-width:1440px;*/
 }
 /*#bloc_page{
 	max-width: 1400px;
@@ -179,7 +180,6 @@ header h1 {
 }
 main {
 	padding: 0vw 2vw 0vw 2vw;
-	/*padding: 0px 10px 0px 10px;*/
 	margin-top: 3em;
 	display: flex;
 	margin-bottom: 3em;
@@ -204,7 +204,8 @@ article {
     background-color: #f2f2f2;
 }
 .insideLabel {
-   	width: 14.2vw;
+   	/*width: 14.2vw;*/
+	width:221px;
 	min-width:150px;
 	height: 165px;
 	background-color: #fff;

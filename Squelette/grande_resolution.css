@@ -7,5 +7,8 @@
 		margin-left: 3vw;
 		padding: 2vh 6vw 0vh 6vw; 
 	}
+	#bloc_page{
+		max-width: 1500px;
+	}
 }
 
