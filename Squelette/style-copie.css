@@ -7,10 +7,9 @@ body {
 	font-weight: normal;
 	/*max-width:1440px;*/
 }
-/*#bloc_page{
+#bloc_page{
 	max-width: 1400px;
-}*/
-
+}
 a{
 	color:black;
 	text-decoration: none;
@@ -358,15 +357,3 @@ ul {
 	list-style-type: none;
 	min-width: 280px;
 }
-/* -- Media Query -- */
-/*-- grands ecrans --*/
-@media screen and (min-width: 1400px) {
-	article{
-		padding: 4vh 4vw 4vh 4vw;
-	}
-	aside{
-		margin-left: 3vw;
-		padding: 2vh 6vw 0vh 6vw; 
-	}
-}
-
