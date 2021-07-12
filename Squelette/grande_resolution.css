@@ -7,5 +7,12 @@
 		margin-left: 3vw;
 		padding: 2vh 6vw 0vh 6vw; 
 	}
+	.main{
+		padding: 0vw 3vw 0vw 6vw;
+	}
+	.header{
+		padding: 0vw 2vw 0vw 6vw;
+	}
+	
 }
 

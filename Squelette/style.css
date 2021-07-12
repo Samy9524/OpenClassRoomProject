@@ -17,6 +17,7 @@ a{
 }
 header {
 	padding: 0vw 2vw 0vw 2vw;
+	/*padding: 0px 2px 0px 29px;*/ 
 }
 .top {
 	margin-top: 2em;
@@ -37,9 +38,8 @@ nav a {
 	text-decoration: none;
 	display: flex;
     align-items: flex-end;
-	padding: 1vh 1vw 1vh 1vw;
-
-
+	/*padding: 1vh 1vw 1vh 1vw;*/
+	padding: 0px 10px 13px 20px;
 }
 nav a:hover {
 	color:#0065fc;
@@ -183,6 +183,7 @@ header h1 {
 }
 main {
 	padding: 0vw 2vw 0vw 2vw;
+	/*padding: 0vw 3vw 0vw 3vw;*/
 	margin-top: 3em;
 	display: flex;
 	margin-bottom: 3em;
@@ -360,7 +361,7 @@ ul {
 }
 /* -- Media Query -- */
 /*-- grands ecrans --*/
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1300px) {
 	article{
 		padding: 4vh 4vw 4vh 4vw;
 	}
@@ -368,5 +369,18 @@ ul {
 		margin-left: 3vw;
 		padding: 2vh 6vw 0vh 6vw; 
 	}
+	.main{
+		padding: 0vw 3vw 0vw 6vw;
+	}
+	.header{
+		padding: 0vw 2vw 0vw 6vw;
+	}
+	.section2 {
+		padding: 0em 9em 0em 16em;
+	}
+	footer{
+		padding: 0em 0em 0em 13em;
+	}
+	
 }
 
