@@ -1,18 +1,21 @@
 /*-- grands ecrans --*/
 @media screen and (min-width: 1400px) {
 	article{
-		padding: 4vh 4vw 4vh 4vw;
+		padding: 30px 30px 30px 30px;
 	}
 	aside{
-		margin-left: 3vw;
-		padding: 2vh 6vw 0vh 6vw; 
+		margin-left: 30px;
+		padding: 25px 25px 25px 25px; 
 	}
-	.main{
-		padding: 0vw 3vw 0vw 6vw;
-	}
-	.header{
-		padding: 0vw 2vw 0vw 6vw;
-	}
+	.main1 {
+		padding: 0px 20px 0px 20px;
 	
-}
+	}
+	.insideLabel {
+		width: 250px;
+	}	
+	.section2InsideLabel {
+		width: 300px;
+	}
+/*}*/
 

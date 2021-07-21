@@ -1,4 +1,4 @@
-@media screen and (max-width:974px) {
+/*@media screen and (max-width:974px) {*/
 	header{
 		padding: 0em 0em 0em 0em;
 	}
@@ -173,4 +173,4 @@
 	footer {
 		display: block;
 	}
-}
+/*}*/
