@@ -1,0 +1,11 @@
+{
+  "name": "part-2-activity",
+  "version": "1.0.0",
+  "description": "Vous trouverez ici les fichiers nécessaires pour l'activité de la partie 2 du cours Créez des animations CSS modernes sur [OpenClassrooms](http://openclassrooms.com/).",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/style.scss:./css/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

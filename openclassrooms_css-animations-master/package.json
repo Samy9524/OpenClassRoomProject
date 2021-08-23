@@ -1,0 +1,11 @@
+{
+  "name": "openclassrooms_css-animations-master",
+  "version": "1.0.0",
+  "description": "Ce repository contient les fichiers nécessaires aux activités 2 et 3 du cours Créez des animations CSS modernes sur [OpenClassrooms](http://openclassrooms.com/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
