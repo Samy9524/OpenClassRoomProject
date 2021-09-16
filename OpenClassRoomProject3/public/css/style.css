@@ -1,0 +1,118 @@
+@keyframes progress-bar {
+  0% {
+    transform: scaleX(0);
+  }
+  17% {
+    transform: scaleX(0.18);
+  }
+  24% {
+    transform: scaleX(0.4);
+    animation-timing-function: cubic-bezier(0.9, 0, 0.1, 1);
+  }
+  46% {
+    transform: scaleX(0.81);
+    animation-timing-function: cubic-bezier(0.25, 0.25, 1);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+.load-container {
+  margin: 300px auto;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+.load-container .progress {
+  width: 50vw;
+  height: 2vw;
+  border: 2px solid #022f40;
+  padding: 0.25rem;
+  margin-bottom: 30px;
+}
+.load-container .progress__bar {
+  height: 100%;
+  background: #15dea5;
+  height: 100%;
+  transform-origin: left;
+  transform: scaleX(0.5);
+  animation: progress-bar 500ms 150ms both;
+  animation-fill-mode: both;
+}
+
+.cat {
+  animation: cat 0ms 800ms both;
+  width: 51vw;
+  height: 30vw;
+  position: absolute;
+  overflow: hidden;
+  background-image: url("https://bit.ly/2XJJLKn");
+  background-size: cover;
+  background-position: -20%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem;
+  font-size: 4vw;
+  font-weight: 900;
+  color: white;
+}
+
+@keyframes cat {
+  0% {
+    transform: translateX(-9999px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+body {
+  font-family: sans-serif;
+  background-color: #F4FCF8;
+}
+
+.form__group input {
+  /*&:focus {
+      border: 2px solid $cd-txt;
+  }*/
+}
+.form__group input:active, .form__group input:focus {
+  border: 2px solid #6300a0;
+  border-radius: 100rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  border: 2px solid #6300a0;
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+}
+.form__group input:not(:focus):invalid {
+  color: white;
+  border: 2px solid #b20a37;
+  background: #b20a37;
+  animation: headshake 100ms cubic-bezier(0.4, 0.1, 0.6, 0.9) 2;
+}
+@keyframes headshake {
+  25% {
+    transform: translateX(2%);
+  }
+  75% {
+    transform: translateX(-2%);
+  }
+}
+.form__group .load {
+  width: 30vh;
+  height: 22.5vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.form__group .load__bar {
+  background-color: #15DEA5;
+  height: 100%;
+  width: 3vh;
+}
+
+/*# sourceMappingURL=style.css.map */

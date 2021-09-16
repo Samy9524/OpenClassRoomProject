@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size:40px;
+    color:#FFF;
+    text-align: center;
+}
+
+.section{
+    background-color: #16a085;
+    height:500px;
+    line-height: 500px;
+}
+.section-2{
+    background-color: #2980b9;
+}
+.section-3{
+    background-color: #e74c3c
+}
+
+.loader{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+/* Loader Quart de cercle */
+
+.loader-quart{
+    border-radius:50px;
+    border: 6px solid rgba(255,255,255,0.4);
+}
+.loader-quart:after{
+    content:'';
+    position: absolute;
+    top: -6px; 
+    left: -6px;
+    bottom: -6px;
+    right: -6px;
+    border-radius: 50px;
+    border-top: 6px solid transparent;
+    border-top-color:#FFF;
+    animation:spin 1s linear infinite;
+}
+
+/* Loader double cercle */
+
+.loader-double{
+    border-radius:50px;
+    border: 6px solid transparent;
+    border-top-color: #FFF;
+    border-bottom-color: #FFF;
+    -webkit-animation: spinreverse 1s linear infinite;
+    animation:spinreverse 1s linear infinite;
+}
+.loader-double:after{
+    content:'';
+    position: absolute;
+    top: 5px; 
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50px;
+    border-top: 6px solid transparent;
+    border-top-color:#FFF;
+    opacity: 0.6;
+    -webkit-animation: spinreverse 2s linear infinite;
+    animation:spinreverse 2s linear infinite;
+}
+.loader-double:before{
+    content:'';
+    position: absolute;
+    top: 15px; 
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50px;
+    border-top: 3px solid transparent;
+    border-top-color:#FFF;
+    opacity: 0.6;
+    -webkit-animation: spinreverse 2.5s linear infinite;
+    animation:spinreverse 2.5s linear infinite;
+}
+
+/* Loader Cercles multiple */
+
+.loader-circles{
+    border-radius:50px;
+    border: 6px solid transparent;
+    border-top-color: #FFF;
+    -webkit-animation: spinreverse 1s linear infinite;
+    animation:spinreverse 1s linear infinite;
+
+@keyframes spin{
+    0%{ 
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    
+    }
+    100%{ 
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spinreverse{
+    0%{ 
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    
+    }
+    100%{ 
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}

@@ -1,0 +1,155 @@
+$mint: #15dea5;
+$navy: #022f40;
+
+@keyframes progress-bar {
+	0% {
+		transform: scaleX(0);
+	}
+	17% {
+		transform: scaleX(0.18);
+	}
+	24% {
+		transform: scaleX(0.4);
+		animation-timing-function: cubic-bezier(0.9, 0, 0.1, 1);
+	}
+	46% {
+		transform: scaleX(0.81);
+		animation-timing-function: cubic-bezier(0.25, 0.25, 1);
+	}
+	100% {
+		transform: scaleX(1);
+	}
+}
+
+$prog-bar-dur: 500ms;
+$prog-bar-delay: 150ms;
+$cat-delay: $prog-bar-dur + $prog-bar-delay * 2;
+
+.load-container {
+	margin: 300px auto;
+
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column-reverse;
+
+	.progress {
+		width: 50vw;
+		height: 2vw;
+		border: 2px solid $navy;
+		padding: 0.25rem;
+		margin-bottom: 30px;
+		&__bar {
+			height: 100%;
+			background: $mint;
+			height: 100%;
+			transform-origin: left;
+			transform: scaleX(0.5);
+			animation: progress-bar $prog-bar-dur $prog-bar-delay both;
+			animation-fill-mode: both;
+
+		}
+	}
+}
+
+.cat {
+	animation: cat 0ms $cat-delay both;
+	width: 51vw;
+	height: 30vw;
+	position: absolute;
+	overflow: hidden;
+	background-image: url("https://bit.ly/2XJJLKn");
+	background-size: cover;
+	background-position: -20%;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.1rem;
+	font-size: 4vw;
+	font-weight: 900;
+	color: white;
+}
+
+@keyframes cat {
+	0% {
+		transform: translateX(-9999px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+
+body {
+  font-family: sans-serif;
+  background-color: #F4FCF8;
+}
+
+$cd-txt: #6300a0;
+$cd-txt--invalid: #fff;
+$cd-danger : #b20a37 ;
+$cd-box:#24beac;
+$shake-intensity: 2%;
+
+.form {
+    &__group {
+        & input {
+			&:active, &:focus {
+            border: 2px solid $cd-txt;
+			border-radius: 100rem;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 2.5rem;
+			border: 2px solid $cd-txt;
+			padding: .5rem 1.5rem;
+			width: 100%
+			}
+            //border-radius: 100rem;
+            //color: $cd-txt;
+            //font-family: 'Montserrat', sans-serif;
+            //font-size: 2.5rem;
+            //outline: none;
+            //padding: .5rem 1.5rem;
+            //width: 100%;
+            //transition: background-color 500ms;
+            /*&:focus {
+                border: 2px solid $cd-txt;
+            }*/
+            &:not(:focus):invalid {
+                color: white;
+				border: 2px solid $cd-danger;
+                background:$cd-danger;
+				animation: headshake 100ms cubic-bezier(.4,.1,.6,.9) 2;
+			
+			}
+        }
+
+		@keyframes headshake {
+			25% {
+				// entièrement à droite
+				transform: translateX($shake-intensity);
+			}
+			75% {
+				// entièrement à gauche
+				transform: translateX($shake-intensity * -1);
+			}
+		}	
+$cd-bars: #15DEA5;
+$size: 3vh;
+
+.load {
+    width: $size*10;
+    height: $size*7.5;
+    display: flex;
+    justify-content: space-evenly;
+    &__bar {
+        background-color: #15DEA5;
+        height: 100%;
+        width: $size;
+    }
+}
+        
+    }
+}
