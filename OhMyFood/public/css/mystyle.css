@@ -90,6 +90,7 @@ footer {
   background-color: #353535;
   padding: 25px;
   color: white;
+  text-align: center;
 }
 
 h3 {
@@ -446,6 +447,11 @@ ul li a {
   background-color: #f5f5f5;
 }
 
+.operation__steps li p {
+  font-weight: 500;
+  margin-left: 20px;
+}
+
 .operation__steps {
   display: flex;
   list-style-type: none;
@@ -501,11 +507,13 @@ ul li a {
   font-weight: bold;
   box-shadow: 4px 4px 6px #aaa;
   cursor: pointer;
+  width: 250px;
 }
 .btn__about button:hover {
   background-color: #ae80e5;
   background-blend-mode: lighten;
   box-shadow: 4px 4px 6px #000;
+  width: 250px;
 }
 
 .howto__button {
@@ -569,6 +577,11 @@ ul li a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.arrow {
+  position: absolute;
+  left: 20px;
 }
 
 .menu__title {
@@ -650,6 +663,7 @@ ul li a {
   font-weight: bold;
   box-shadow: 4px 4px 6px #aaa;
   cursor: pointer;
+  width: 250px;
   margin: 30px 0;
   padding: 20px;
   width: 50%;
@@ -669,10 +683,5 @@ ul li a {
   display: flex;
   justify-content: center;
 }
-.arrow {
-  position: absolute;
-  left: 20px;
-}
-
 
 /*# sourceMappingURL=mystyle.css.map */

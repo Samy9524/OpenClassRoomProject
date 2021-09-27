@@ -525,4 +525,8 @@ footer ul .fa-hands-helping {
     padding: 10px 90px;
   }
 }
+.arrow {
+  position: absolute;
+  left: 20px;
+}
 /*# sourceMappingURL=style.css.map */
